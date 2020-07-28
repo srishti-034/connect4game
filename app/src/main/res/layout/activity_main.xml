@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="348dp"
+        android:layout_height="341dp"
+        android:layout_marginBottom="125dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/grid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="dropIn"
+                android:tag="0"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="223dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="dropIn"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="dropIn"
+                android:tag="2" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="dropIn"
+                android:tag="3" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:onClick="dropIn"
+                android:tag="4"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="223dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:onClick="dropIn"
+                android:tag="5" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:onClick="dropIn"
+                android:tag="6" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:onClick="dropIn"
+                android:tag="7" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="78dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="8"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="223dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="9" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="10" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="11" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="12"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="223dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="13" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="14" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:onClick="dropIn"
+                android:tag="15" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:onClick="resetGame"
+        android:text="Reset"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/winnerTextView"
+        android:layout_width="173dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="32dp"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:fontFamily="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
